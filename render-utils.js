@@ -1,5 +1,4 @@
 export function renderTodo(todo) {
-    // create a div and a p tag
     const todoDiv = document.createElement('div');
     const p = document.createElement('p');
     // depending on whether the todo is complete, give the div the appropriate css class ('complete' or 'incomplete')
@@ -8,7 +7,6 @@ export function renderTodo(todo) {
     } else {
         todoDiv.classList.add('incomplete');
     }
-
     // add the 'todo' css class no matter what
     todoDiv.classList.add('todo');
 
