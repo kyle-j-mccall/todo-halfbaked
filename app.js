@@ -28,7 +28,7 @@ signUpForm.addEventListener('submit', async (event)=>{
     }
 });
 
-signInForm.addEventListener('submit', async(event)=>{
+signInForm.addEventListener('submit', async (event)=>{
     event.preventDefault();
     const user = await signInUser(signInEmail.value, signInPassword.value);
   
