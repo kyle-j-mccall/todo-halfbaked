@@ -75,4 +75,3 @@ deleteButton.addEventListener('click', async () => {
     displayTodos();
 });
 
-displayTodos();
